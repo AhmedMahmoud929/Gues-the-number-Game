@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+</head>
+
+<body>
+
+
+    <div class="main-container">
+
+
+        <!-- TOP SECTION -->
+        <h2 id="empty">PLEASE ENTER THE NUMBER</h2>
+        <h1>GUESS</h1>
+        <div class="score">
+            <div class="container">
+                <div class="text">You : <span id="you">0</span></div>
+                <div class="text">PC : <span id="pc">0</span></div>
+            </div>
+        </div>
+
+        <!-- MAIN SECTION -->
+
+        <section>
+
+            <!-- title -->
+            <div class="title">
+                Guess the number between 1 to 5
+
+            </div>
+
+
+            <!-- input -->
+            <form action="">
+                <div class="con">
+                    <input required id="inp" type="number" placeholder="Number" autocomplete="off">
+                    <button id="btn">Guess</button>
+                </div>
+            </form>
+
+
+            <!-- result -->
+            <div class="result">
+                <div class="text"></div>
+
+
+                <img id="img">
+
+            </div>
+
+
+        </section>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
